@@ -100,10 +100,14 @@
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+
 }
 .two-columns__paragraph {
-  margin-top: 0;
-  margin-bottom: 0;
+margin-top: 0;
+margin-bottom: 0;
 }
 .two-columns__span-accent {
   line-height: 34px;
