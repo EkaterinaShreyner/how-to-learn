@@ -7,7 +7,6 @@
   }
 }
 
-
 .page {
   min-width: 1100px;
   max-width: 1600px;
@@ -58,6 +57,13 @@
   color: fuchsia;
 }
 
+.header__link:hover {
+  opacity: 0.5;
+  color: fuchsia;
+  transition: color 3s linear;
+
+}
+
 .header__main-illustration {
   width: 765px;
   height: 608px;
@@ -77,7 +83,7 @@
   top: 64px;
   right: 0;
   z-index: 0;
-  animation: rotation 20s infinite;
+  animation: rotation 20s linear infinite;
 }
 
 .logo {
@@ -216,6 +222,8 @@ margin-right: 48px;
 
 .khan__buy-link:hover {
   color: fuchsia;
+  transition: color 3s linear;
+  opacity: 0.5;
 }
 
 .section-title {
@@ -340,8 +348,9 @@ margin-right: 48px;
 .video__iframes {
   display: flex;
   justify-content: space-between;
-  margin-top: 50px;
-  /* border: 1px solid red; */
+  /* margin-top: 50px; */
+  position: relative;
+  top: 50px;
 }
 
 .video__iframe {
@@ -400,6 +409,13 @@ margin-right: 48px;
 .feynman__link:active {
   color: fuchsia;
 }
+
+.feynman__link:hover {
+  color: fuchsia;
+  transition: color 3s linear;
+  opacity: 0.5;
+}
+
 .kaufman {
   display: flex;
   flex-direction: column;
@@ -430,6 +446,7 @@ margin-right: 48px;
   background-size: contain;
   background-repeat: no-repeat;
   z-index: -1;
+  animation: rotation 20s linear infinite;
 }
 
 .resources {
@@ -451,6 +468,11 @@ margin-right: 48px;
 .recources__link {
   width: 270px;
   height: 38px;
+}
+
+.recources__link:hover {
+  opacity: 0.3;
+  transition: opacity 2s linear;
 }
 
 .footer {
@@ -511,6 +533,12 @@ margin-right: 48px;
   height: 16px;
   text-decoration: none;
   color: white;
+}
+
+.footer__column-link:hover {
+  color: fuchsia;
+  transition: color 3s linear;
+  opacity: 0.5;
 }
 
 .footer__social-icon {
