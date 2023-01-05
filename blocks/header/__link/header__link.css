@@ -1,0 +1,14 @@
+.header__link {
+  text-decoration: none;
+  color: #2f80ed;
+}
+
+.header__link:active {
+  color: fuchsia;
+}
+
+.header__link:hover {
+  opacity: 0.5;
+  color: fuchsia;
+  transition: color 3s linear;
+}
