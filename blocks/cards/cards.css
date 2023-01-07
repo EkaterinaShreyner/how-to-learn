@@ -1,6 +1,8 @@
 .cards {
+  width: 920px;
   display: flex;
   margin: auto;
   flex-wrap: wrap;
   padding-left: 0px;
+  column-gap: 100px;
 }
