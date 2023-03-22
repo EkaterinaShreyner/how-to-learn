@@ -6,3 +6,7 @@
 Реализован с помощью:
 -  HTML
 -  CSS
+
+**GitHub Pages**  
+    
+* [Ссылка на GitHub Pages сайта How to learn](https://ekaterinashreyner.github.io/how-to-learn/index.html)
