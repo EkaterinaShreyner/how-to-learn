@@ -7,6 +7,6 @@
 -  HTML
 -  CSS
 
-**GitHub Pages**  
+**Ссылка на GitHub Pages**  
     
-* [Ссылка на GitHub Pages сайта How to learn](https://ekaterinashreyner.github.io/how-to-learn/index.html)
+* [How to learn](https://ekaterinashreyner.github.io/how-to-learn/index.html)
